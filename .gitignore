@@ -1,0 +1,41 @@
+# ---- Secrets: never commit these ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+appsettings.*.local.json
+secrets.json
+local.settings.json
+azure.credentials.json
+*.publishsettings
+*.azurePubxml
+
+# ---- Editors / OS ----
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.user
+*.suo
+Thumbs.db
+.DS_Store
+
+# ---- Build output ----
+bin/
+obj/
+dist/
+build/
+out/
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---- Logs / temp ----
+*.log
+npm-debug.log*
+.tmp/
