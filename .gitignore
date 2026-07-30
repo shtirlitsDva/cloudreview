@@ -13,6 +13,9 @@ azure.credentials.json
 *.publishsettings
 *.azurePubxml
 
+# ---- Claude Code local settings (may contain machine-specific paths) ----
+.claude/settings.local.json
+
 # ---- Editors / OS ----
 .vs/
 .vscode/*
